@@ -22,5 +22,10 @@ public class LoginController {
 	public String login(Map<String, Object> model) {
 		return "login";
 	}
+	
+	@RequestMapping("/grid")
+	public String grid(Map<String, Object> model) {
+		return "grid";
+	}
 
 }

@@ -17,5 +17,10 @@ public class LoginController {
 	public String tables(Map<String, Object> model) {
 		return "tables";
 	}
+	
+	@RequestMapping("/login")
+	public String login(Map<String, Object> model) {
+		return "login";
+	}
 
 }
